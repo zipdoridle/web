@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Desktop() {
-  return <p>Mobile</p>;
+export default function Main() {
+  return <p>Mobile Main</p>;
 }

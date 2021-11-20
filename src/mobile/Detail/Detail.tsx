@@ -1,3 +1,5 @@
-export function Detail() {
-  return <p>Detail</p>;
+import React from 'react';
+
+export default function Detail() {
+  return <p>Mobile Detail</p>;
 }

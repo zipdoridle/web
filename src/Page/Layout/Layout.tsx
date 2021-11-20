@@ -5,10 +5,6 @@ import Router from './Route';
 import DesktopLayout from './DesktopLayout';
 import MobileLayout from './MobileLayout';
 
-import { Name, NameSub, Logout, MenuBar, Menu } from './shareStyle';
-import { SearchBar } from '../../components/mocules';
-import Main from '../Signin/Signin';
-
 const Mobile: React.FC = ({ children }) => {
   const isMobile = useMediaQuery({
     query: '(max-width:767px)',

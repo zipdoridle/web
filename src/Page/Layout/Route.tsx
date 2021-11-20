@@ -1,14 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { Main } from '../index';
+import { Main, Mypage, Profile, Post, Detail } from '../../Page';
 
 export default function Router() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path='/main' component={Main} />
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route path='/main' component={Main} />
+      <Route path='/detail' component={Detail} />
+      <Route path='/mypage' component={Mypage} />
+      <Route path='/profile' component={Profile} />
+      <Route path='/post' component={Post} />
+    </Switch>
   );
 }

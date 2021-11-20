@@ -7,8 +7,8 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path='/' component={SiginIn} />
-        <Route exact path='/main' component={Layout} />
+        <Route path='/' component={Layout} />
+        <Route exact path='/login' component={SiginIn} />
       </Switch>
     </BrowserRouter>
   );
