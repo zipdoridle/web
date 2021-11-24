@@ -1,3 +1,5 @@
-export function Post() {
-  return <p>Post</p>;
+import React from 'react';
+
+export default function Post() {
+  return <p>Mobile Post</p>;
 }
